@@ -38,7 +38,7 @@ Controllers deal with HTTP request/response handling. Putting `@Transactional` h
 | **Service** | Yes | This is where business transactions are defined and orchestrated. |
 | **Repository** | ❌ No | Too low-level; Spring Data handles basic CRUD transactions automatically. |
 
-Ultimately, `@Transactional` is not just as a tool to open database connections, but as an architectural boundary marker that defines a strict business unit of work.
+Ultimately, `@Transactional` is not just a tool to open database connections, but as an architectural boundary marker that defines a strict business unit of work.
 
 ---
 
