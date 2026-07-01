@@ -54,5 +54,3 @@ When a producer writes data to Kafka, replication behavior is dictated by the `a
 | **No Data Loss** | With `acks=all` and a replication factor of 3, you can lose up to 2 brokers simultaneously without losing a single message. |
 | **Zero Downtime** | Cluster rebalancing and leader elections happen automatically in milliseconds, completely transparent to your applications. |
 
----
-
